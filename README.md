@@ -1,6 +1,6 @@
-# Gila Test
+# Gila Test (README)
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is building with VUE 3 + Composition API + Typescript. This is the frontend of the challenge and you should have running the [API](https://github.com/villa-developer/gila-test) for this project
 
 ## Recommended IDE Setup
 
@@ -37,18 +37,6 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
 ```
 
 This runs the end-to-end tests against the Vite development server.
