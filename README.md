@@ -1,6 +1,6 @@
 # Gila Test (README)
 
-This project is building with VUE 3 + Composition API + Typescript. This is the frontend of the challenge and you should have running the [API](https://github.com/villa-developer/gila-test) for this project
+This project is building with VUE 3 + Composition API + Typescript. This is the frontend of the challenge and for the correct use of this project you should have running the [API](https://github.com/villa-developer/gila-test) for this project
 
 ## Recommended IDE Setup
 
