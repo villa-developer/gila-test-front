@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
+import { ref } from 'vue';
 
 const router = useRouter()
-const name = localStorage.getItem('name');
+const name = ref()
+name.value = localStorage.getItem('name');
 const logout = () => {
     localStorage.removeItem('fakeToken')
     localStorage.removeItem('categories')
     localStorage.removeItem('name')
-    router.push('/')
+    name.value = ''
+    router.push({name: 'login'})
 }
 
 </script>

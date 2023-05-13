@@ -23,9 +23,9 @@ function doLogin() {
         submited.value = false;
         router.push({name: 'notifications'})
     }).catch(error => {
+        submited.value = false;
         const errorResponse = error.response.data
         let message = error.message;
-        submited.value = false;
         if (errorResponse.message) {
             message = errorResponse.message
         }
