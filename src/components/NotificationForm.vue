@@ -51,6 +51,7 @@ const onSubmit = () => {
             <select v-model="category" class="form-select" placeholder="Default select example">
                 <option value="" selected>Select Category</option>
                 <option v-for="item in categories" :value="item" :key="item">{{ item.toUpperCase() }}</option>
+                <option value="fake">Fake</option>
             </select>
         </div>
         <div class="mb-3">

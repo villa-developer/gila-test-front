@@ -10,7 +10,7 @@ export interface NotificationEntry {
     category: string,
     channel: String[],
     message: String,
-    created_at: Date,
+    createdAt: Date,
 }
 
 export interface DiaryEntry {
