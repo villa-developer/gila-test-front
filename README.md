@@ -2,6 +2,12 @@
 
 This project is building with VUE 3 + Composition API + Typescript. This is the frontend of the challenge and for the correct use of this project you should have running the [API](https://github.com/villa-developer/gila-test) for this project
 
+## Available users
+|        User      | Password |
+|------------------|----------|
+| one@gmail.com    | password |
+| two@gmail.com    | password |
+| three@gmail.com  | password |
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
