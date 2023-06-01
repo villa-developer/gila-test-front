@@ -17,9 +17,9 @@ function doLogin() {
 
     axios.post('http://localhost:3000/api/auth/signin', request).then(response => {
         const data = response.data;
-        localStorage.setItem('fakeToken', data.token)
-        localStorage.setItem('categories', data.categories)
-        localStorage.setItem('name', data.name)
+        localStorage.setItem('fakeToken', data.data.token)
+        localStorage.setItem('categories', data.data.categories)
+        localStorage.setItem('name', data.data.name)
         submited.value = false;
         router.push({name: 'notifications'})
     }).catch(error => {
